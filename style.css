@@ -1,0 +1,106 @@
+/*
+Theme Name: ResponsiveTheme3
+Author: Joseph Sheraden
+Version: 1.0
+*/
+html, body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #CCFFFF; }
+
+.container-fluid {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 25px; }
+
+.site-header {
+  position: fixed;
+  width: 100%;
+  background-color: #505050;
+  z-index: 9999; }
+
+.site-title {
+  width: 88%;
+  margin: 10px auto;
+  position: relative; }
+
+.site-title h1 {
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-weight: bold; }
+
+.site-nav {
+  position: relative;
+  float: right;
+  margin-bottom: 10px; }
+
+.site-nav a {
+  text-decoration: none;
+  border-bottom: none; }
+
+.page-content {
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 25px;
+  padding: 25px 15px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 5px #505050; }
+
+.page-title {
+  margin-top: 10px;
+  border-bottom: 1px solid #000000; }
+
+h4 {
+  color: #505050; }
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 15px; }
+
+article.post {
+  position: relative;
+  min-height: 250px;
+  padding: 10px; }
+  article.post h3 {
+    margin-top: 5px; }
+  article.post p {
+    color: #404040; }
+
+.single article.post {
+  padding-top: 0; }
+
+.inner-post {
+  padding: 5px 20px;
+  border: 1px solid #909090;
+  border-radius: 25px; }
+
+.post-comments {
+  margin-top: 200px;
+  border-top: 1px dotted #505050; }
+  .post-comments h3 {
+    font-size: 150%; }
+  .post-comments .commentlist {
+    margin-bottom: 50px; }
+  .post-comments #respond {
+    padding: 10px;
+    /*border: 1px solid #808080;*/
+    border-top: 1px dotted #505050;
+    /*border-radius: 25px;*/ }
+
+button.btn:hover {
+  background-color: #CCFFFF; }
+
+/*# sourceMappingURL=style.css.map */
