@@ -25,7 +25,7 @@
 	          <span class="glyphicon glyphicon-th-list"></span>
             </button>
 		  </a>
-		  <a href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>" title="Contact Me">
+		  <a href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>" title="Contact Us">
 	        <button type="button" id="contact-btn" class="btn btn-default btn-lg" aria-label="Left Align">
 	          <span class="glyphicon glyphicon-earphone"></span>
             </button>
