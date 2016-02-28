@@ -3,38 +3,31 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-  <meta charset="<?php bloginfo( 'charset' ); ?>">
+  <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?php bloginfo( 'name' ); ?></title>
+  <title><?php bloginfo('name'); ?></title>
   <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
   <div class="container-fluid">
-    <div class="site-header">
-      <div class="site-title">
-	    <h1><?php bloginfo( 'name' ); ?></h1>
-		<div class="site-nav">
-	      <a href="<?php echo get_permalink( get_page_by_title( 'Home' ) ); ?>" title="Home">
-	        <button type="button" id="home-btn" class="btn btn-default btn-lg" aria-label="Left Align">
-              <span class="glyphicon glyphicon-home"></span>
-            </button>
-		  </a>
-		  <a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>" title="Blog">
-	        <button type="button" id="blog-btn" class="btn btn-default btn-lg" aria-label="Left Align">
-	          <span class="glyphicon glyphicon-th-list"></span>
-            </button>
-		  </a>
-		  <a href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>" title="Contact Us">
-	        <button type="button" id="contact-btn" class="btn btn-default btn-lg" aria-label="Left Align">
-	          <span class="glyphicon glyphicon-earphone"></span>
-            </button>
-		  <a href="<?php echo get_permalink( get_page_by_title( 'Search' ) ); ?>" title="Search">
-	        <button type="button" id="search-btn" class="btn btn-default btn-lg" aria-label="Left Align">
-	          <span class="glyphicon glyphicon-search"></span>
-            </button>
-		  </a>
-		</div>
+	  <div class="site-header">
+	    <nav class="navbar navbar-inverse navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a href="<?php echo site_url(); ?>" class="navbar-brand"><?php bloginfo('name'); ?></a>
+	        </div>
+          <div class="collapse navbar-collapse">
+          	<?php get_responsive_menu(); ?>
+          </div>
+	      </div>
+	    </nav>
 	  </div>
 	</div>
 	
