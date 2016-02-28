@@ -1,3 +1,7 @@
+$(document).ready(function() {
+  $('#copyright').html('&copy ' + new Date().getFullYear());
+});
+
 /*
 $( document ).ready( function() {
 	jQuery.event.add( window, 'load', resizeFrame );
@@ -23,7 +27,3 @@ $( document ).ready( function() {
 	}
 } );
 */
-
-$(document).ready(function() {
-  $('#copyright').html('&copy ' + new Date().getFullYear());
-});

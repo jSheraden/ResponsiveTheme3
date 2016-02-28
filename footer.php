@@ -1,5 +1,6 @@
+	  </div>
 	</div>
-	<div class="site-footer">
+  	<div class="site-footer">
 	  <nav class="navbar navbar-inverse navbar-static-bottom">
 	    <div class="container">
 	      <div class="navbar-header">
@@ -7,7 +8,7 @@
 	      </div>
 	    </div>
 	  </nav>
-	</div>
+    </div>
   </div>
   <?php wp_footer(); ?>
 </body>
