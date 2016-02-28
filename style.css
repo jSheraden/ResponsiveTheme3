@@ -107,4 +107,8 @@ article.post {
 button.btn:hover {
   background-color: #CCFFFF; }
 
+.site-footer .navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
+
 /*# sourceMappingURL=style.css.map */

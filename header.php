@@ -30,5 +30,5 @@
 	    </nav>
 	  </div>
 	
-	<div class="container page-content">
+    <div class="container page-content">
 	

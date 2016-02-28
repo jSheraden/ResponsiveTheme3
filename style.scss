@@ -134,3 +134,8 @@ article.post {
 button.btn:hover {
 	background-color: $bg-color;
 }
+
+.site-footer .navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
