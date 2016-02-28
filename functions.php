@@ -2,6 +2,11 @@
 
 function theme_resources() {
 	wp_register_script(
+		'jquery',
+		get_template_directory_uri() . '/bower_components/jquery/dist/jquery.min.js'
+	);
+	
+	wp_register_script(
 		'bootstrap',
 		get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.min.js'
 	);
@@ -9,7 +14,7 @@ function theme_resources() {
 	wp_enqueue_script(
 		'theme-scripts',
 		get_template_directory_uri() . '/js/script.js',
-		array( 'bootstrap' )
+		array( 'jquery', 'bootstrap' )
 	);
 
 	wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/bower_components/bootstrap/dist/css/bootstrap.min.css');
@@ -27,7 +32,7 @@ function get_responsive_menu() {
 		'container_class' => '',
 		'container_id'    => '',
 		'menu_class'      => 'menu nav navbar-nav navbar-right',
-		'menu_id'         => 'res-menu',
+		'menu_id'         => '',
 		'echo'            => true,
 		'fallback_cb'     => 'wp_page_menu',
 		'before'          => '',

@@ -15,7 +15,7 @@
 	    <nav class="navbar navbar-inverse navbar-fixed-top">
 	      <div class="container">
 	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu" aria-expanded="false">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#res-menu" aria-expanded="false">
 	            <span class="sr-only">Toggle navigation</span>
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
@@ -23,7 +23,7 @@
 	          </button>
 	          <a href="<?php echo site_url(); ?>" class="navbar-brand"><?php bloginfo('name'); ?></a>
 	        </div>
-          <div class="collapse navbar-collapse">
+          <div id="res-menu" class="collapse navbar-collapse">
           	<?php get_responsive_menu(); ?>
           </div>
 	      </div>
