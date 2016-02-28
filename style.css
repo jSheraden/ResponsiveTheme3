@@ -60,7 +60,7 @@ body {
 .page-content {
   position: relative;
   margin-top: 90px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   padding: 25px 15px;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 5px #505050; }
@@ -102,9 +102,7 @@ article.post {
     margin-bottom: 50px; }
   .post-comments #respond {
     padding: 10px;
-    /*border: 1px solid #808080;*/
-    border-top: 1px dotted #505050;
-    /*border-radius: 25px;*/ }
+    border-top: 1px dotted #505050; }
 
 button.btn:hover {
   background-color: #CCFFFF; }

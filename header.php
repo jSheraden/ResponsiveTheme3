@@ -29,7 +29,6 @@
 	      </div>
 	    </nav>
 	  </div>
-	</div>
 	
 	<div class="container page-content">
 	
