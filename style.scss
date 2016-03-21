@@ -136,9 +136,16 @@ article.post {
   }
 }
 
+#author, #email, #url {
+  position: relative;
+  min-width: 25%;
+  max-width: 100%;
+}
+
 textarea#comment {
   position: relative;
-  width: 100%;
+  min-width: 60%;
+  max-width: 100%;
 }
 
 button.btn:hover {

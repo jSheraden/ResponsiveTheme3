@@ -108,9 +108,15 @@ article.post {
     padding: 10px;
     border-top: 1px dotted #505050; }
 
+#author, #email, #url {
+  position: relative;
+  min-width: 25%;
+  max-width: 100%; }
+
 textarea#comment {
   position: relative;
-  width: 100%; }
+  min-width: 60%;
+  max-width: 100%; }
 
 button.btn:hover {
   background-color: #CCFFFF; }
