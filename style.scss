@@ -8,139 +8,144 @@ $bg-color: #CCFFFF;
 $header-color: #505050;
 
 html, body {
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background-color: $bg-color;
+  background-color: $bg-color;
 }
 
 #page-wrapper {
-	position: relative;
-	min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 .container-fluid {
-	position: relative;
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-	width: 90%;
-	margin: 0 auto;
-	border-radius: 25px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 25px;
 }
 
 /*
 .site-header {
-	position: fixed;
-	width: 100%;
-	background-color: $header-color;
-	z-index: 9999;
+position: fixed;
+width: 100%;
+background-color: $header-color;
+z-index: 9999;
 }
 
 .site-title {
-	width: 88%;
-	margin: 10px auto;
-	position: relative;
+width: 88%;
+margin: 10px auto;
+position: relative;
 }
 
 .site-title h1 {
-	position: relative;
-	float: left;
-	margin: 0 auto;
-	color: #FFFFFF;
-	font-weight: bold;
+position: relative;
+float: left;
+margin: 0 auto;
+color: #FFFFFF;
+font-weight: bold;
 }
 
 .site-nav {
-	position: relative;
-	float: right;
-	margin-bottom: 10px;
+position: relative;
+float: right;
+margin-bottom: 10px;
 }
 
 .site-nav a {
-	text-decoration: none;
-	border-bottom: none;
+text-decoration: none;
+border-bottom: none;
 }
 */
 
 .page-content {
-	position: relative;
-	margin-top: 90px;
-	margin-bottom: 40px;
-	padding: 25px 15px;
-	background-color: #FFFFFF;
-	box-shadow: 0px 0px 5px $header-color;
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  padding: 25px 15px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 5px $header-color;
 }
 
 .page-title {
-	margin-top: 10px;
-	border-bottom: 1px solid #000000;
+  margin-top: 10px;
+  border-bottom: 1px solid #000000;
 }
 
 h4 {
-	color: $header-color;
+  color: $header-color;
 }
 
 h5 {
-	margin-top: 0;
-	margin-bottom: 15px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 article.post {
-	position: relative;
-	min-height: 250px;
-	padding: 10px;
-	
-	h3 {
-		margin-top: 5px;
-	}
-	
-	p {
-		color: #404040;
-	}
+  position: relative;
+  min-height: 250px;
+  padding: 10px;
+
+  h3 {
+    margin-top: 5px;
+  }
+
+  p {
+    color: #404040;
+  }
 }
 
 .single article.post {
-	padding-top: 0;
+  padding-top: 0;
 }
 
 .inner-post {
-	padding: 5px 20px;
-	border: 1px solid #909090;
-	border-radius: 25px;
+  padding: 5px 20px;
+  border: 1px solid #909090;
+  border-radius: 25px;
 }
 
 .post-comments {
-	margin-top: 200px;
-	border-top: 1px dotted $header-color;
+  margin-top: 200px;
+  border-top: 1px dotted $header-color;
 
-	h3 {
-		font-size: 150%;
-	}
-	
-	.commentlist {
-		margin-bottom: 50px;
-	}
-	
-	#respond {
-		padding: 10px;
-		border-top: 1px dotted $header-color;
-	}
+  h3 {
+    font-size: 150%;
+  }
+
+  .commentlist {
+    margin-bottom: 50px;
+  }
+
+  #respond {
+    padding: 10px;
+    border-top: 1px dotted $header-color;
+  }
+}
+
+textarea#comment {
+  position: relative;
+  width: 100%;
 }
 
 button.btn:hover {
-	background-color: $bg-color;
+  background-color: $bg-color;
 }
 
 .site-footer .navbar {
-	margin-bottom: 0;
-	border-radius: 0;
+  margin-bottom: 0;
+  border-radius: 0;
 }
