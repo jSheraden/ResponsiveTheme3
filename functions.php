@@ -55,8 +55,6 @@ function post_loop($content_type) {
 			the_post();
 			get_template_part('content', $content_type);
 		}
-	} else {
-		echo '<p>No content found.</p>';
 	}
 }
 
